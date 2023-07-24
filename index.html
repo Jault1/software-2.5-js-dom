@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <h1>Calculator</h1>
+    <label for=num1>Number 1</label><input id="num1" type="number" name="num1" value="12"><br>
+    <label for=num2>Number 2</label><input id="num2" type="number" name="num2" value="2"><br>
+
+    <button id="add" onclick="calcIt(this.id)">+</button>  
+    <button id="sub" onclick="calcIt(this.id)">-</button>  
+    <button id="mult" onclick="calcIt(this.id)">*</button>  
+    <button id="div" onclick="calcIt(this.id)">/</button>  
+    <button id="mod" onclick="calcIt(this.id)">%</button>  
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+
+</div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

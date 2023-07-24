@@ -1,0 +1,40 @@
+/* css styles */
+/*
+#f07167 coral
+#fed9b7 tan
+#fdfcdc creme
+#00afb9 aqua
+#0081a7 blue
+*/
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #00afb9;
+    Padding-left: 50px;
+}
+
+h1 {
+    color: #0081a7;
+
+}
+input {
+    margin-bottom: 22px;
+    margin-left: 22px;
+}
+
+label {
+    padding-bottom: 22px;
+    color: #f07167;
+}
+
+h2 {
+    padding-top: 50px;
+}
