@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,27 +15,36 @@
         @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Hanken+Grotesk:wght@300&display=swap');
     </style>
 </head>
+
 <body>
-    <header><image id="marquee" src=""></image></header>
-    <caption>Background Photo by <a href="https://unsplash.com/@forsakenfilmslimited?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Forsaken Films</a> on <a href="https://unsplash.com/photos/fp8RILDNzOo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </caption>
+    <header>
+        <image id="marquee" src=""></image>
+    </header>
+
     <div>
-    <h1 id="calcHead">Calculator</h1>
-    <label id="numLabel" for=num1>Number &nbsp;1:</label><input class="nums" id="num1" type="number" name="num1" value="12"><br>
-    <label id="numLabel2" for=num2>Number 2:</label><input class="nums" id="num2" type="number" name="num2" value="2"><br>
+        <h1 id="calcHead">Calculator</h1>
+        <label id="numLabel" for=num1>Number &nbsp;1:</label><input class="nums" id="num1" type="number" name="num1"
+            value="12"><br>
+        <label id="numLabel2" for=num2>Number 2:</label><input class="nums" id="num2" type="number" name="num2"
+            value="2"><br>
 
-    <button id="add" onclick="calcIt(this.id)">+</button>  
-    <button id="sub" onclick="calcIt(this.id)">-</button>  
-    <button id="mult" onclick="calcIt(this.id)">*</button>  
-    <button id="div" onclick="calcIt(this.id)">/</button>  
-    <button id="mod" onclick="calcIt(this.id)">%</button>  
+        <button id="add" onclick="calcIt(this.id)">+</button>
+        <button id="sub" onclick="calcIt(this.id)">-</button>
+        <button id="mult" onclick="calcIt(this.id)">*</button>
+        <button id="div" onclick="calcIt(this.id)">/</button>
+        <button id="mod" onclick="calcIt(this.id)">%</button>
 
-    <h2 id="resultHead">Result:</h2>
-    <p id="result">&nbsp;</p>
+        <h2 id="resultHead">Result:</h2>
+        <p id="result">&nbsp;</p>
+    </div>
 
-    <button id="changeStyle" onclick="changeStyle(this.id)">Change page style</button>  
-</div>
-
+    <div id="sticky">
+        <p>Background Photo by <a
+                href="https://unsplash.com/@forsakenfilmslimited?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Forsaken
+                Films</a> on <a
+                href="https://unsplash.com/photos/fp8RILDNzOo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </div>
 </body>
 <script src="js/script.js"></script>
 

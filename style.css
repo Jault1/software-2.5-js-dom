@@ -20,8 +20,8 @@ body {
     font-family: 'Audiowide', cursive;
     /* font-family: 'Hanken Grotesk', sans-serif; */
     color: #00afb9;
-    Padding-left: 50px;
-    background: linear-gradient(#00afb9, #f07167);
+    Padding-left: 20px;
+    background: linear-gradient(#00afb9, #fff);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -32,16 +32,29 @@ body {
     background-size: cover;
 }
 
+div {
+    background-color: #0000006e;
+    padding: 20px;
+    max-width: 280px;
+    text-align: center;
+}
+
+div#sticky {
+    background-color: #fdfcdcf8;
+    padding: 20px;
+    max-width: 280px;
+    text-align: center;
+}
+
 h1 {
     padding-top: 50px;
     padding-bottom: 6px;
-    color: #0081a7;
-    margin-left: 50px;
+    color: #f07167;
 }
 
 input {
-    margin-bottom: 22px;
-    margin-left: 22px;
+    margin-bottom: 12px;
+    padding: 6px;
 }
 
 label {
@@ -52,17 +65,13 @@ label {
 h2 {
     margin-top: 50px;
     padding: 12px;
-    width: 150px;
-    margin-left: 50px;
-    font-weight: bolder;
+    color: #f07167;
 }
 
 #result {
     margin-top: 12px;
     padding: 4px;
-    margin-left: 50px;
     border: 1px solid #f07167;
-    width: 10%;
     padding: 12px;
     text-align: right;
     background-color: #fdfcdc;
@@ -70,14 +79,16 @@ h2 {
 }
 
 #changeStyle {
-    margin-left: 50px;
     background: #f07167;
     padding: 12px;
     margin-top: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #changeStyle:hover {
-    margin-left: 50px;
     background: #0081a7;
     color: #fdfcdc;
 }
@@ -88,19 +99,17 @@ h2 {
     padding-right: 50px;
 }
 
-/* ********************* glow ****************** */
-.glow {
-    font-size: 80px;
-    color: #fff;
-    animation: glow 1s ease-in-out infinite alternate;
+button {
+    width: 40px;
+    height: 40px;
 }
 
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #e60073;
-    }
+#sticky {
+    position: sticky;
+    float: right;
+    border-left: 10px double silver;
+    border-top: 3px solid silver;
+    border-bottom: 1px solid silver;
+    margin-right: 30px;
 
-    to {
-        text-shadow: 0 0 20px #000000, 0 0 30px #ff4da6, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
 }
