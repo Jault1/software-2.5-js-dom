@@ -15,10 +15,13 @@
     </style>
 </head>
 <body>
+    <header><image id="marquee" src=""></image></header>
+    <caption>Background Photo by <a href="https://unsplash.com/@forsakenfilmslimited?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Forsaken Films</a> on <a href="https://unsplash.com/photos/fp8RILDNzOo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </caption>
     <div>
-    <h1>Calculator</h1>
-    <label for=num1>Number &nbsp;1:</label><input id="num1" type="number" name="num1" value="12"><br>
-    <label for=num2>Number 2:</label><input id="num2" type="number" name="num2" value="2"><br>
+    <h1 id="calcHead">Calculator</h1>
+    <label id="numLabel" for=num1>Number &nbsp;1:</label><input class="nums" id="num1" type="number" name="num1" value="12"><br>
+    <label id="numLabel2" for=num2>Number 2:</label><input class="nums" id="num2" type="number" name="num2" value="2"><br>
 
     <button id="add" onclick="calcIt(this.id)">+</button>  
     <button id="sub" onclick="calcIt(this.id)">-</button>  
@@ -26,10 +29,10 @@
     <button id="div" onclick="calcIt(this.id)">/</button>  
     <button id="mod" onclick="calcIt(this.id)">%</button>  
 
-    <h2>Result:</h2>
+    <h2 id="resultHead">Result:</h2>
     <p id="result">&nbsp;</p>
 
-
+    <button id="changeStyle" onclick="changeStyle(this.id)">Change page style</button>  
 </div>
 
 </body>
