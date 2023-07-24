@@ -16,7 +16,9 @@
 body {
     margin: 0;
     font-size: 28px;
-    font-family: 'Hanken Grotesk', sans-serif;
+    /* font-family: 'Trebuchet MS', Arial, Tahoma, Verdana, Helvetica, sans-serif; */
+    font-family: 'Audiowide', cursive;
+    /* font-family: 'Hanken Grotesk', sans-serif; */
     color: #00afb9;
     Padding-left: 50px;
 }
