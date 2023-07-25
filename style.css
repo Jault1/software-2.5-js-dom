@@ -110,4 +110,5 @@ div#sticky {
     border-top: 4px solid #f07167;
     background-color: hsl(222deg 5.49% 35.69%);
     color: black;
+    font-size: 12px;
 }
