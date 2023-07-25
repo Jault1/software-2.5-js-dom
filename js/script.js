@@ -7,27 +7,31 @@
 
 
 function calcIt(mathFunction) {
-    num1 = document.getElementById("num1").value;
-    num2 = document.getElementById("num2").value;
+    /* Get the values from the input boxes */
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;
+    let result;
 
+    /* Convert the numbers from string to number so you can do math */
+    num1 = Number(num1);
+    num2 = Number(num2);
+    
     if (mathFunction == "add") {
-        let result = Number(num1) + Number(num2);
-        displayResult(result);
+        result = num1 + num2;
     } else if (mathFunction == "sub") {
-        let result = Number(num1) - Number(num2);
-        displayResult(result);
+        result = num1 - num2;
     } else if (mathFunction == "mult") {
-        let result = Number(num1) * Number(num2);
-        displayResult(result);
+        result = num1 * num2;
     } else if (mathFunction == "div") {
-        let result = Number(num1) / Number(num2);
-        displayResult(result);
+        result = num1 / num2;
       } else if (mathFunction == "mod") {
-        let result = Number(num1) % Number(num2);
-        displayResult(result);
+        result = num1 % num2;
     } else {
         // do nothing}
     }
+    displayResult(result);
+    //alert(typeof result);
+
 }
 
 function displayResult(result) {

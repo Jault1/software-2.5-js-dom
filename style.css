@@ -39,12 +39,7 @@ div {
     text-align: center;
 }
 
-div#sticky {
-    background-color: #fdfcdcf8;
-    padding: 20px;
-    max-width: 280px;
-    text-align: center;
-}
+
 
 h1 {
     padding-top: 50px;
@@ -104,12 +99,15 @@ button {
     height: 40px;
 }
 
-#sticky {
-    position: sticky;
-    float: right;
-    border-left: 10px double silver;
-    border-top: 3px solid silver;
-    border-bottom: 1px solid silver;
-    margin-right: 30px;
+div#sticky {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
+#credit {
+    border-left: 10px double #f07167;
+    border-top: 4px solid #f07167;
+    background-color: hsl(206deg 100% 73.3% / 73%);
+    color: black;
 }
