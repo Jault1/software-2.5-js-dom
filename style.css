@@ -63,6 +63,15 @@ h2 {
     color: #f07167;
 }
 
+#resultBox {
+    margin-top: 12px;
+    padding: 4px;
+    border: 1px solid #f07167;
+    padding: 12px;
+    text-align: right;
+    background-color: #fdfcdc;
+}
+
 #result {
     margin-top: 12px;
     padding: 4px;
@@ -70,7 +79,6 @@ h2 {
     padding: 12px;
     text-align: right;
     background-color: #fdfcdc;
-
 }
 
 #changeStyle {
